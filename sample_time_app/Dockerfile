@@ -15,6 +15,6 @@ RUN pip install Flask
 
 USER nyu
 
-COPY --chown=nyu:nyu . .
+COPY --chown=nyu:nyu ../../../Desktop .
 
 CMD [ "python", "./run.py" ]
